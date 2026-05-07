@@ -1,0 +1,20 @@
+Security.getEncryptInfo {"params":{"asymmetric":"RSA","cipher":["AES","RPAC"],"pub":"N:D42A1BF37C9F6DF35AD50612F89AB09B0E7E50B442D348BE02102FC40945205C5CC44C94D382DB10F0618BBE0AFD67E4C9FF78BDE8BD9BC1A0974A7A45BA297C1D859769CD65BECCC1585A7B4DFB26430C571DC7DE101479DF1EAD753A85BC9A517AB079326AE6969B8DFF053136BE7B640A550251FEE2077EB7661D4098973B0685EFF4B281EF05810B4436C253F8DAB17BABEE727564E6350C9C1B0EE9839AC8C5E21DFB7AFF9D2EE8B63F405AD79B8C2A596D09054402AEDBC68DAD4A3BFFE25113A3A24F80BC840BFF86A9C1B607A7DD8B3B25424E74292E60F748B982DC9A08DD94CA0DDF5C49BE4C4B7A4971E77595AC0CA5D64B549B101CFE93724C03,E:010001"},"result":true}
+PasswdFind.getDescript {"params":{"contact":"a***@mozmail.com","desc":"PRSTA117031000X1FE5cFPySVcyZd9lw8371D30IywQBJPwieH3FRsS3Iioz7rDsD687qV09EfyYDe2juQMNvOXBxcNVYeqUG6sQ5wdtsvq5w1Iu2pHPsB+7WnBcN9LXXMg3NoCRQdqojQy6tNzvoekn34vAi\/4F1aP2P7kP6Dan+a2SfO6fnriWKelXW1vbXCklTKzjdKv2AomLsaqooL1\/u6Gs5g+gApeBM2zeoHtf0YA\/jjsMhdNkH7w0LdmsQTKLA\/QlptG8Z1+hCMqa4JqlWAEa\/zZUw9Dsb\/l8vduglEU9rkFagElHzRP2WFEZdYPZ0ayx+1S4m8QyYZp8ByQyG3VtcPm19FQQ==","mode":2},"result":true}
+PasswdFind.resetPassword {"error":{"code":287506436,"message":"get description failed"},"result":false} parameters = {"user" : "","auth": "","pwd":""}
+PasswdFind.getContact {"params":{"contact":"a***@mozmail.com","mode":2},"result":true}
+PasswdFind.setContact X
+PasswdFind.resetPwdByQuestion {"error":{"message":"Invalid request!"},"result":false}
+PasswdFind.getSecretQuestion {"error":{"code":268632080,"message":""},"result":false} parameters = {"user" : ""}
+PasswdFind.checkAuthCode {"error":{"code":287506436,"message":"get description failed"},"result":false}
+parameters = {"authCode" : ""}
+PasswdFind.getBasicInfo X
+PasswdFind.checkQuestionAnswer {"error":{"message":"Invalid request!"},"result":false}
+SecretQuestion.getAllQuestion {"error":{"code":0,"message":""},"result":false}
+DevInit.getStatus {"params":{"Find":"BC","Init":2,"PasswdFindVersion":1,"SecretQuestion":0,"Step":[2,2]},"result":true}
+DevInit.account {"error":{"message":"device already init!"},"result":false} parameters = {"name" : "", "pwd" : "", "CellPhone" : "", "Mail" : ""}
+DevInit.access {"error":{"message":"device already init!"},"result":false} parameters = {"NetAccess" : 0, "UpgradeCheck" : 0}
+DevInit.getCurrentTime {"params":{"time":"2026-03-11 09:20:00"},"result":true}
+DevInit.setCurrentTime {"error":{"message":"device already init!"},"result":false}
+DevInit.setLocalityConfig {"error":{"message":"device already init!"},"result":false}
+DevInit.getDevCaps {"error":{"message":"device already init!"},"result":false}
+DevInit.getPasswdDesc {"error":{"code":268632080,"message":""},"result":false} parameters = {"name" : ""}
